@@ -1,0 +1,293 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Frontend Post Submission Manager Documentation</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+        p, table, hr, .box { margin-bottom:25px; }
+        .box p { margin-bottom:10px; }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <h3 class="center alt">&ldquo;Frontend Post Submission Manager&rdquo; Documentation by &ldquo;WP Shuffle&rdquo; v1.0.0</h3>
+
+        <hr>
+
+        <h1 class="center">&ldquo;Frontend Post Submission Manager&rdquo;</h1>
+
+        <div class="borderTop">
+            <div class="span-6 colborder info prepend-1">
+                <p class="prepend-top">
+                    <strong>
+                        Created: 02/05/2020<br>
+                        By: WP Shuffle<br>
+                        Email: <a href="mailto:shufflewp@gmail.com">shufflewp@gmail.com</a>
+                    </strong>
+                </p>
+            </div><!-- end div .span-6 -->		
+
+            <div class="span-12 last">
+                <p class="prepend-top append-0">Thank you for purchasing our plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via our user page contact form <a href="http://codecanyon.net/user/wpshuffle#contact">here</a>. Thanks so much!</p>
+            </div>
+        </div><!-- end div .borderTop -->
+
+        <hr>
+
+        <h2 id="toc" class="alt">Table of Contents</h2>
+        <ol class="alpha">
+            <li><a href="#newform">Creating a new form</a></li>
+            <li><a href="#basic">Basic Settings</a></li>
+            <li><a href="#login">Login Settings</a></li>
+            <li><a href="#dashboard">Dashboard Settings</a></li>
+            <li><a href="#form">Form Settings</a></li>
+            <li><a href="#custom">Custom Fields</a></li>
+            <li><a href="#layout">Layout Settings</a></li>
+            <li><a href="#notification">Notification Settings</a></li>
+            <li><a href="#security">Security Settings</a></li>
+            <li><a href="#customize">Customize Settings</a></li>
+            <li><a href="#shortcodes">Shortcodes</a></li>
+            <li><a href="#global">Global Settings</a></li>
+            <li><a href="#developer">Developer Documentation</a></li>
+
+
+        </ol>
+
+        <hr>
+
+        <h3 id="newform"><strong>Creating a new form</strong> - <a href="#toc">top</a></h3>
+        <p>A new form can be created by clicking "Add New Form" submenu of Frontend Post Submission Menu available in the admin section. While creating a new form, you shall provide:</p>
+        <ul>
+            <li><strong>Form Status</strong>
+                <ul>
+                    <li>This will enable or disable the form while using in the frontend</li>
+                </ul>
+            </li>
+            <li><strong>Form Title</strong>
+                <ul>
+                    <li>This is the main title of the form</li>
+                </ul>
+            </li>
+            <li><strong>Form Alias</strong>
+                <ul>
+                    <li>This is a unique identifier for the form which is used to display the form and fetch necessary settings. Please use the unique name which has not been used for any other forms and please don't use any special characters except underscore(_)</li>
+                </ul>
+            </li>
+            <li><strong>Post Type</strong>
+                <ul>
+                    <li>This will list all the post which are registered in your site including default WP Post Type. Please choose the post type which you want to receive from the form being created.</li>
+                </ul>
+            </li>
+            <li><strong>Form Type</strong>
+                <ul>
+                    <li>There are two form types, one is to receive the post through registered users by logging in and another one is guest form which can be submitted without requiring to login.</li>
+                </ul>
+            </li>
+        </ul>
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/create-a-new-form.png"><img class="alignnone size-large wp-image-668" src="https://wpshuffle.com/wp-content/uploads/2020/05/create-a-new-form-1024x684.png" alt="" width="640" height="428" /></a>
+
+        <p>Once the form is created, you will be redirected to the form configurations page where you can configure</p>
+
+        <hr>
+
+        <h3 id="basic"><strong>Basic Settings</strong> - <a href="#toc">top</a></h3>
+
+        <p>Once the form is created, there are few configuration section which need to configure before starting to use in frontend. Basic settings section consists of all the basic options related with the form. Available options are:</p>
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/Basic-settings.png"><img class="alignnone size-large wp-image-669" src="https://wpshuffle.com/wp-content/uploads/2020/05/Basic-settings-799x1024.png" alt="" width="640" height="820" /></a>
+        <ul>
+            <li>Form Title
+                <ul>
+                    <li>This is the title given while creating the form</li>
+                </ul>
+            </li>
+            <li>Form Alias
+                <ul>
+                    <li>This is the alias given to the form while creating the form. We don't recommend editing form alias because it is used to fetch all the necessary settings and list the post in the frontend post management dashboard</li>
+                </ul>
+            </li>
+            <li>Post Status
+                <ul>
+                    <li>As per your requirement, you can configure the post status of the submitted post such as <strong>Publish</strong>, <strong>Draft</strong> or <strong>Pending</strong>.</li>
+                </ul>
+            </li>
+            <li>Post Format
+                <ul>
+                    <li>This will list all the post format supported by your active theme. If your active theme doesn't support post formats then this option will not be available</li>
+                </ul>
+            </li>
+            <li>Validation Error Message
+                <ul>
+                    <li>In this field, you can enter the validation error message to show when any validation error occurs in the form.</li>
+                </ul>
+            </li>
+            <li>Form Success Message
+                <ul>
+                    <li>In this field, you can enter the message to display on the successful form submission</li>
+                </ul>
+            </li>
+            <li>Redirection
+                <ul>
+                    <li>With this option, you can enable the redirection after the successful form submission. There are two types of redirection. One is <strong>Redirect to Published Post</strong> or <strong>Custom URL
+                            <a href="https://wpshuffle.com/wp-content/uploads/2020/05/redirection.png"><img class="alignnone size-full wp-image-670" src="https://wpshuffle.com/wp-content/uploads/2020/05/redirection.png" alt="" width="738" height="217" /></a>
+                        </strong></li>
+                </ul>
+            </li>
+        </ul>
+        &nbsp;
+
+        <hr>
+
+        <h3 id="login"><strong>Login Settings</strong> - <a href="#toc">top</a></h3>
+
+        <p>Please note that this section will only show when you are editing the "<strong>Login Require</strong>" type form. In this section, you can choose the login type. Available login types are:</p>
+        <ul>
+            <li>Show Login Form</li>
+            <li>Show Login Message</li>
+            <li>Redirect to Login Page</li>
+        </ul>
+        Other options are generated as per the selected login type
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/login-settings.png"><img class="alignnone size-full wp-image-671" src="https://wpshuffle.com/wp-content/uploads/2020/05/login-settings.png" alt="" width="987" height="689" /></a>
+
+        <hr>
+
+        <h3 id="dashboard"><strong>Dashboard Settings</strong> - <a href="#toc">top</a></h3>
+
+        <p>Please note that this section will only show when you are editing the "<strong>Login Require</strong>" type form. In this section, you can configure all your necessary options related with Dashboard.</p>
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/dashboard-settings.png"><img class="alignnone wp-image-672 size-full" src="https://wpshuffle.com/wp-content/uploads/2020/05/dashboard-settings.png" alt="" width="988" height="799" /></a>
+
+        <hr>
+        <h3 id="form"><strong>Form Fields Settings</strong> - <a href="#toc">top</a></h3>
+
+        <p>In this section you can configure all the necessary fields for the form. You can enable or disable existing fields, add custom fields. Pre available fields are</p>
+        <ul>
+            <li>Post Title</li>
+            <li>Post Content</li>
+            <li>Post Image</li>
+            <li>Post Excerpt</li>
+            <li>Categories</li>
+            <li>Tags</li>
+        </ul>
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/form-fields-settings.png"><img class="alignnone size-large wp-image-673" src="https://wpshuffle.com/wp-content/uploads/2020/05/form-fields-settings-1024x732.png" alt="" width="640" height="458" /></a>
+
+        <hr>
+        <h3 id="custom"><strong>Custom Fields </strong> - <a href="#toc">top</a></h3>
+        If the pre available fields are not sufficient then you can add custom fields which has various field types. The available fields types are:
+        <ul>
+            <li>Textfield</li>
+            <li>Textarea</li>
+            <li>Radio Button</li>
+            <li>Checkbox</li>
+            <li>Select Dropdown</li>
+            <li>Number</li>
+            <li>Email</li>
+            <li>Datepicker</li>
+            <li>Fileuploader</li>
+        </ul>
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/custom-field-form.png"><img class="alignnone size-full wp-image-682" src="https://wpshuffle.com/wp-content/uploads/2020/05/custom-field-form.png" alt="" width="546" height="579" /></a>
+
+        <p>While adding custom field, you will need to enter <strong>Label</strong> and <strong>Meta key. </strong>Label is for displaying the label in the form and meta key is for storing the custom field. While entering meta key, you shouldn't use any special characters or symbols except underscore(_). If you want to add custom field for receiving Street Address then meta key shall be street_address</p>
+        <hr>
+        <h3 id="layout"><strong>Layout Settings</strong> - <a href="#toc">top</a></h3>
+        <p>In layout settings, you can choose the template from our pre designed templates.</p>
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/layout-template-settings.png"><img class="alignnone size-full wp-image-712" src="https://wpshuffle.com/wp-content/uploads/2020/05/layout-template-settings.png" alt="" width="1024" height="845" /></a>
+
+        &nbsp;
+
+        <p>And also you can choose custom fields frontend display styles for the custom fields added in the form and chosen to display in the frontend.</p>
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/layout-custom-fields-template.png"><img class="alignnone size-full wp-image-713" src="https://wpshuffle.com/wp-content/uploads/2020/05/layout-custom-fields-template.png" alt="" width="728" height="392" /></a>
+        <hr>
+        <h3 id="notification"><strong>Notification Settings</strong> - <a href="#top">top</a></h3>
+        <p>In this section, you can configure all the necessary notifications related with frontend post submission. You can configure:</p>
+        <ul>
+            <li><strong>Admin Notification </strong>- Here are the available options for admin notification.
+                <ul>
+                    <li><strong>Enable</strong> - You can either enable or disable admin notification</li>
+                    <li><strong>Notification emails</strong> - You can enter the email address separated by comma in which you want to receive the admin notifications. If left blank, the notification will be sent to the email of the site admin configured in your site's general settings.</li>
+                    <li><strong>Subject </strong>- This field is for entering the subject for admin notification email</li>
+                    <li><strong>From Name </strong>- This field is for entering the "From Name" for admin notification email. Please enter the value which won't resemble any real person's name such as "No Reply" else email may land in the spam.</li>
+                    <li><strong>From Email</strong> - This field is for entering the "From Email" for admin notification email. Please enter the value which won't resemble any real person's email such as "noreply@yoursiteurl.com" else email may land in the spam.</li>
+                    <li><strong>Message</strong> - In this field you can enter the message which you will receive in the admin notification email. You can use [post_title] and [post_admin_link] to replace submitted post title and post admin link in the admin notification email message.
+                        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/admin-notification.png"><img class="alignnone size-full wp-image-714" src="https://wpshuffle.com/wp-content/uploads/2020/05/admin-notification.png" alt="" width="787" height="692" /></a>
+                    </li>
+                </ul>
+            </li>
+            <li><strong>Post Publish Notification</strong>
+                <ul>
+                    <li><strong>Enable</strong> - You can either enable or disable post publish notification</li>
+                    <li><strong>Subject </strong>- This field is for entering the subject for post publish notification email</li>
+                    <li><strong>From Name </strong>- This field is for entering the "From Name" for post publish notification email. Please enter the value which won't resemble any real person's name such as "No Reply" else email may land in the spam.</li>
+                    <li><strong>From Email</strong> - This field is for entering the "From Email" for post publish notification email. Please enter the value which won't resemble any real person's email such as "noreply@yoursiteurl.com" else email may land in the spam.</li>
+                    <li><strong>Message</strong> - In this field you can enter the message which you will receive in the post publish notification email. You can use [author_name],[post_title] and [post_link] to replace submitted author name, post title and post link in the post publish notification email message.
+                        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/post-approve-notification.png"><img class="alignnone size-full wp-image-715" src="https://wpshuffle.com/wp-content/uploads/2020/05/post-approve-notification.png" alt="" width="763" height="561" /></a></li>
+                </ul>
+            </li>
+            <li><strong>Post Trash Notification</strong>
+                <ul>
+                    <li><strong>Enable</strong> - You can either enable or disable post reject notification</li>
+                    <li><strong>Subject </strong>- This field is for entering the subject for post reject notification email</li>
+                    <li><strong>From Name </strong>- This field is for entering the "From Name" for post reject notification email. Please enter the value which won't resemble any real person's name such as "No Reply" else email may land in the spam.</li>
+                    <li><strong>From Email</strong> - This field is for entering the "From Email" for post reject notification email. Please enter the value which won't resemble any real person's email such as "noreply@yoursiteurl.com" else email may land in the spam.</li>
+                    <li><strong>Message</strong> - In this field you can enter the message which you will receive in the post reject notification email. You can use [author_name],[post_title] to replace submitted author name, post title in the post reject notification email message.
+                        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/post-trash.png"><img class="alignnone size-full wp-image-716" src="https://wpshuffle.com/wp-content/uploads/2020/05/post-trash.png" alt="" width="802" height="578" /></a></li>
+                </ul>
+            </li>
+        </ul>
+        <hr/>
+        <h3 id="security"><strong>Security Settings</strong> - <a href="#top">top</a></h3>
+        <p>You can enable the google recaptcha V2 for both login form and post submission form. For enabling google reCaptcha, you will need reCaptcha site key and secret Key which can be get from <a href="https://www.google.com/recaptcha/admin" target="_blank" rel="nofollow noopener">here</a>.</p>
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/security-settings.png"><img class="alignnone size-full wp-image-717" src="https://wpshuffle.com/wp-content/uploads/2020/05/security-settings.png" alt="" width="952" height="652" /></a>
+        <hr>
+        <h3 id="customize"><strong>Customize Settings</strong> - <a href="#top">top</a></h3>
+        <p>If you couldn't find any templates that matches your theme then you can use our custom styling options which shall give you enormous capabilities to design the form as per your need. Here are the available options to customize any chosen form template.</p>
+        <ul>
+            <li><strong>Body Customize</strong> - Body text color, Background Type, Background Image, Background Color</li>
+            <li><strong>Text Field </strong>- Field Text Color, Field Border Color, Field Background Color</li>
+            <li><strong>Buttons </strong>- Button Background Color<strong>, </strong>Button Hover Background Color, Button Text Color, Button Hover Text Color</li>
+            <li><strong>Radio Button </strong>- Radio Button Color, Radio Button Checked Color</li>
+            <li><strong>Checkboxes </strong>- Checkbox Color, Checkbox Checked Color</li>
+        </ul>
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/customize-settings.png"><img class="alignnone size-large wp-image-718" src="https://wpshuffle.com/wp-content/uploads/2020/05/customize-settings-812x1024.png" alt="" width="640" height="807" /></a>
+        <hr>
+        <h3 id="global"><strong>Global Settings</strong> - <a href="#top">top</a></h3>
+        <p>In case you need to disable <strong>fontawesome</strong>, disable <strong>jQuery UI CSS</strong> or disable <strong>jQuery Are you Sure JS</strong> then you can disable them from our plugin's global settings page which can be accessed from settings submenu of our plugin's menu.</p>
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/global-settings.png"><img class="alignnone size-large wp-image-719" src="https://wpshuffle.com/wp-content/uploads/2020/05/global-settings-1024x512.png" alt="" width="640" height="320" /></a>
+        <hr>
+        <h3 id="shortcodes"><strong>Shortcodes</strong> - <a href="#top">top</a></h3>
+        <p>As soon as the form is created, it will generate two shortcodes if the form is "<strong>Login require</strong>" form and single shortcode when form is "<strong>Guest"</strong> form which you can view on the top of setting navigation menu of form as shown in below screenshot.</p>
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/shortcodes.png"><img class="alignnone size-large wp-image-720" src="https://wpshuffle.com/wp-content/uploads/2020/05/shortcodes-1024x485.png" alt="" width="640" height="303" /></a>
+
+        <p>Form Shortcode shall be [fpsm alias="alias_of_your_form"]</p>
+
+        <p>Frontend Dashboard Shortcode shall be [fpsm_dashboard alias="alias_of_your_form"]</p>
+        <hr/>
+        <h3 id="developer"><strong>Developer Documentation</strong> - <a href="#top">top</a></h3>
+        <p>In case you want to extend or modify any functionality in the plugin from outside the plugin using hooks and filters then we have added some necessary hooks and filters in the plugin which we have listed in detail inside the Help section of our plugin.</p>
+
+        <p>So if required then you can check all the available hooks and filter inside the help section of our plugin.</p>
+
+        <a href="https://wpshuffle.com/wp-content/uploads/2020/05/developer-documentation.png"><img class="alignnone size-large wp-image-721" src="https://wpshuffle.com/wp-content/uploads/2020/05/developer-documentation-1024x727.png" alt="" width="640" height="454" /></a>
+        <hr>
+        <p>Once again, thank you so much for purchasing this plugin. As we said at the beginning, We'd be glad to help you if you have any questions relating to this plugin. No guarantees, but we'll do our best to assist. If you have a more general question relating to the plugins on codecanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+
+        <p class="append-bottom alt large"><strong>WP Shuffle</strong></p>
+        <p><a href="#toc">Go To Table of Contents</a></p>
+
+        <hr class="space">
+    </div><!-- end div .container -->
+</body>
+</html>
