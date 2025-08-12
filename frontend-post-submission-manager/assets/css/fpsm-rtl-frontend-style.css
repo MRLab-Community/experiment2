@@ -1,0 +1,95 @@
+.fpsm-front-form *{
+    text-align: right;
+    direction: rtl;
+}
+textarea{
+    font-family: inherit;
+}
+.fpsm-radio{margin-right: 0;}
+.fpsm-checkbox{margin-left: 20px;margin-right: 0;}
+.fpsm-select-field select{padding: 0 20px}
+.fpsm-select-field::before{left: 14px;right: auto}
+.fpsm-checkbox label::before,
+.fpsm-radio label::before{left: auto;right: 0;}
+.fpsm-front-form .fpsm-field-wrap .fpsm-checkbox label,
+.fpsm-front-form .fpsm-field-wrap .fpsm-radio label{padding-left: 0;padding-right: 24px;}
+.fpsm-front-form .fpsm-custom-field-datepicker .fpsm-field::before{right: auto;left: 0;}
+.fpsm-radio-inline .fpsm-radio{margin-right: 0;margin-left: 30px;}
+.fpsm-checkbox-inline .fpsm-checkbox{margin-right: 0;}
+
+span.fpsm-tag-remove-trigger{margin-left: 0;margin-right: 5px;}
+
+
+/*Template-12*/
+.fpsm-template-12 .fpsm-field-wrap > label::after{left: 100%;}
+.fpsm-template-12 .fpsm-post-title .fpsm-field::before{left: auto;right: 5px;}
+.fpsm-template-12 .fpsm-custom-field-select .fpsm-select-field::after,
+.fpsm-template-12 .fpsm-taxonomy-select .fpsm-select-field::after{right: auto;left: 3px;}
+.fpsm-template-12 .fpsm-custom-field-datepicker .fpsm-field::before{left: 5px !important;}
+.fpsm-template-12 .qq-uploader{padding-left: 0;padding-right: 50px;}
+.fpsm-template-12 .qq-uploader::before{left: auto;right: 0;}
+.fpsm-template-12 .fpsm-post-excerpt .fpsm-field::before{left: auto;right: 5px}
+.fpsm-template-12 .fpsm-post-excerpt .fpsm-field > textarea,
+.fpsm-template-12 .fpsm-post-title .fpsm-field > input{padding-left: 0;padding-right: 50px;}
+
+/*Template-16*/
+.fpsm-template-16 .fpsm-post-title .fpsm-field::before{left: auto;right:0;}
+.fpsm-template-16 .fpsm-custom-field-select .fpsm-select-field::after,
+.fpsm-template-16 .fpsm-taxonomy-select .fpsm-select-field::after{right: auto;left: 0;}
+.fpsm-template-16 .fpsm-custom-field-datepicker .fpsm-field::before{left: 5px !important;right: 0;}
+.fpsm-template-16 .qq-uploader{padding-left: 0;padding-right: 50px;}
+.fpsm-template-16 .qq-uploader::before{left: auto;right: 0;}
+.fpsm-template-16 .fpsm-post-excerpt .fpsm-field::before,
+.fpsm-front-form.fpsm-template-16 .fpsm-custom-field-datepicker .fpsm-field::before{left: auto;right: 0;}
+.fpsm-template-16 .fpsm-post-excerpt .fpsm-field > textarea,
+.fpsm-template-16 .fpsm-post-title .fpsm-field > input,
+.fpsm-template-16 .fpsm-custom-field-datepicker .fpsm-field .fpsm-date-picker > input{padding-left: 0;padding-right: 50px;}
+
+/*Template-17*/
+.fpsm-template-17 .fpsm-post-title .fpsm-field::before{left: auto;right:0;}
+.fpsm-template-17 .fpsm-custom-field-select .fpsm-select-field::after,
+.fpsm-template-17 .fpsm-taxonomy-select .fpsm-select-field::after{right: auto;left: 0;}
+.fpsm-template-17 .fpsm-custom-field-datepicker .fpsm-field::before{left: 5px !important;right: 0;}
+.fpsm-template-17 .qq-uploader{padding-left: 0;padding-right: 50px;}
+.fpsm-template-17 .qq-uploader::before{left: auto;right: 0;}
+.fpsm-template-17 .fpsm-post-excerpt .fpsm-field::before{left: auto;right: 0;}
+.fpsm-template-17 .fpsm-post-excerpt .fpsm-field > textarea,
+.fpsm-template-17 .fpsm-post-title .fpsm-field > input{padding-left: 0;padding-right: 50px;}
+.fpsm-template-17 .fpsm-taxonomy-textfield .fpsm-field::before{left: auto;right: 0;}
+.fpsm-template-17 .fpsm-taxonomy-textfield .fpsm-field > input,
+.fpsm-template-17 .fpsm-custom-field-datepicker .fpsm-field .fpsm-date-picker > input{padding-left: 15px;padding-right: 50px;}
+
+.fpsm-template-17 .fpsm-post-title .fpsm-field::before,
+.fpsm-template-17 .qq-uploader::before,
+.fpsm-template-17 .fpsm-post-excerpt .fpsm-field::before,
+.fpsm-template-17 .fpsm-taxonomy-textfield .fpsm-field::before,
+.fpsm-template-17 .fpsm-custom-field-datepicker .fpsm-field::before{border: none;border-right: solid 4px #fa7575;}
+
+
+/*Template-21*/
+.fpsm-template-21 .fpsm-post-title .fpsm-field::before{left: auto;right:0;}
+.fpsm-template-21 .fpsm-custom-field-select .fpsm-select-field::after,
+.fpsm-template-21 .fpsm-taxonomy-select .fpsm-select-field::after{right: auto;left: 0;}
+.fpsm-template-21 .fpsm-custom-field-datepicker .fpsm-field::before{left: 5px !important;right: 0;}
+.fpsm-template-21 .qq-uploader{padding-left: 0;padding-right: 50px;}
+.fpsm-template-21 .qq-uploader::before{left: auto;right: 0;}
+.fpsm-template-21 .fpsm-post-excerpt .fpsm-field::before,
+.fpsm-template-21 .fpsm-taxonomy-textfield .fpsm-field::before{left: auto;right: 0;}
+.fpsm-template-21 .fpsm-post-excerpt .fpsm-field > textarea,
+.fpsm-template-21.fpsm-post-title .fpsm-field > input,
+.fpsm-template-21 .fpsm-taxonomy-textfield .fpsm-field > input{padding-left: 0;padding-right: 50px;}
+
+/*Template-12*/
+.fpsm-template-22 .fpsm-field-wrap > label::after{left: 100%;}
+.fpsm-template-22 .fpsm-post-title .fpsm-field::before{left: auto;right: 5px;}
+.fpsm-template-22 .fpsm-custom-field-select .fpsm-select-field::after,
+.fpsm-template-22 .fpsm-taxonomy-select .fpsm-select-field::after{right: auto;left: 3px;}
+.fpsm-template-22 .fpsm-custom-field-datepicker .fpsm-field::before{left: auto;right: 5px;}
+.fpsm-template-22 .qq-uploader{padding-left: 0;padding-right: 50px;}
+.fpsm-template-22 .qq-uploader::before{left: auto;right: 0;}
+.fpsm-template-22 .fpsm-post-excerpt .fpsm-field::before,
+.fpsm-template-22 .fpsm-taxonomy-textfield .fpsm-field::before{left: auto;right: 5px}
+.fpsm-template-22 .fpsm-post-excerpt .fpsm-field > textarea,
+.fpsm-template-22 .fpsm-post-title .fpsm-field > input,
+.fpsm-template-22 .fpsm-taxonomy-textfield .fpsm-field > input,
+.fpsm-template-22 .fpsm-custom-field-datepicker .fpsm-field .fpsm-date-picker > input{padding-left: 0;padding-right: 50px;}
