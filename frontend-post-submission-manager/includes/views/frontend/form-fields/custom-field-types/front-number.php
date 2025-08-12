@@ -1,0 +1,1 @@
+<input type="number" name="<?php echo esc_attr( $field_key ); ?>" min="<?php echo esc_attr( $field_details['min_limit'] ); ?>" max="<?php echo esc_attr( $field_details['max_limit'] ); ?>" value="<?php echo esc_attr( $custom_field_saved_value ); ?>"/>
