@@ -1,0 +1,26 @@
+/* Icon for the admin menu */
+#adminmenu .toplevel_page_wpforo-birthday div.wp-menu-image:before {
+    content: "\f1fd"; /* Cake icon from FontAwesome */
+    font-family: "Font Awesome 6 Free"; /* Ensure FontAwesome is used */
+    font-weight: 900; /* Required for solid icons */
+    color: #a7aaad;/* Default WordPress blue */
+}
+
+/* Ensure the icon remains visible when the menu item is selected */
+#adminmenu .toplevel_page_wpforo-birthday.current div.wp-menu-image:before,
+#adminmenu .toplevel_page_wpforo-birthday.wp-has-current-submenu div.wp-menu-image:before {
+    color: #fff; /* White color for active state */
+}
+
+/* Adjust menu text color */
+#adminmenu .toplevel_page_wpforo-birthday a.menu-top {
+    color: #f0f0f1;/* Default WordPress blue */
+}
+
+/* Hover and active states */
+#adminmenu .toplevel_page_wpforo-birthday a.menu-top:hover,
+#adminmenu div.wp-menu-name:hover,
+#adminmenu .toplevel_page_wpforo-birthday.current a.menu-top,
+#adminmenu .toplevel_page_wpforo-birthday.wp-has-current-submenu a.menu-top {
+    color: #fff; /* White color for hover/active states */
+}

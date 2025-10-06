@@ -1,0 +1,196 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WPForo Birthday Widget\n"
+"POT-Creation-Date: 2025-02-01 17:21+0100\n"
+"PO-Revision-Date: 2025-02-01 17:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wpforo-birthday-widget.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wpforo-birthday-widget.php:13
+msgid "Birthday Information"
+msgstr ""
+
+#: wpforo-birthday-widget.php:17
+msgid "Birthday"
+msgstr ""
+
+#: wpforo-birthday-widget.php:21
+msgid "Please enter your birthday."
+msgstr ""
+
+#: wpforo-birthday-widget.php:68
+msgid "Birthday updated successfully!"
+msgstr ""
+
+#: wpforo-birthday-widget.php:70 wpforo-birthday-widget.php:89
+msgid "You do not have permission to edit this user."
+msgstr ""
+
+#: wpforo-birthday-widget.php:73 wpforo-birthday-widget.php:92
+msgid "Invalid request."
+msgstr ""
+
+#: wpforo-birthday-widget.php:87
+msgid "Birthday reset successfully!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: wpforo-birthday-widget.php:103 wpforo-birthday-widget.php:232
+#: wpforo-birthday-widget.php:266
+msgid "WPForo Birthday Widget"
+msgstr ""
+
+#: wpforo-birthday-widget.php:104
+msgid "Displays users birthdays."
+msgstr ""
+
+#: wpforo-birthday-widget.php:158
+msgid "New title"
+msgstr ""
+
+#: wpforo-birthday-widget.php:161
+msgid "Title:"
+msgstr ""
+
+#: wpforo-birthday-widget.php:184
+msgid "Update Your Birthday"
+msgstr ""
+
+#: wpforo-birthday-widget.php:186
+msgid "Birthday:"
+msgstr ""
+
+#: wpforo-birthday-widget.php:190
+msgid "Update Birthday"
+msgstr ""
+
+#: wpforo-birthday-widget.php:191
+msgid "Reset Birthday"
+msgstr ""
+
+#: wpforo-birthday-widget.php:214 wpforo-birthday-widget.php:244
+msgid "WPForo Birthday Widget Instructions"
+msgstr ""
+
+#: wpforo-birthday-widget.php:215 wpforo-birthday-widget.php:245
+msgid "Instructions"
+msgstr ""
+
+#: wpforo-birthday-widget.php:223 wpforo-birthday-widget.php:253
+#: wpforo-birthday-widget.php:337
+msgid "WPForo Birthday Widget Settings"
+msgstr ""
+
+#: wpforo-birthday-widget.php:224 wpforo-birthday-widget.php:254
+msgid "Settings"
+msgstr ""
+
+#: wpforo-birthday-widget.php:233
+msgid "WPForo Birthday"
+msgstr ""
+
+#: wpforo-birthday-widget.php:267
+msgid "This plugin adds a birthday widget to WPForo."
+msgstr ""
+
+#: wpforo-birthday-widget.php:268 wpforo-birthday-widget.php:277
+msgid "Visit us at:"
+msgstr ""
+
+#: wpforo-birthday-widget.php:276
+msgid "WPForo Birthday Widget by MRLab Community"
+msgstr ""
+
+#: wpforo-birthday-widget.php:279
+msgid "- Installation -"
+msgstr ""
+
+#: wpforo-birthday-widget.php:281
+msgid "Upload the plugin files to your plugin directory."
+msgstr ""
+
+#: wpforo-birthday-widget.php:282
+msgid "Go to the administration panel and activate the plugin."
+msgstr ""
+
+#: wpforo-birthday-widget.php:285
+msgid "- First Use -"
+msgstr ""
+
+#: wpforo-birthday-widget.php:287
+msgid ""
+"Insert the shortcode [wpforo_birthday] where you want the birthday field to "
+"appear."
+msgstr ""
+
+#: wpforo-birthday-widget.php:288
+msgid ""
+"Go to the administration panel → Appearance → Widgets, and select the "
+"\"WPForo Birthday Widget\" to place it where you want the public notice of "
+"who is celebrating their birthday to appear."
+msgstr ""
+
+#: wpforo-birthday-widget.php:289
+msgid "Done!"
+msgstr ""
+
+#: wpforo-birthday-widget.php:298
+msgid "Language Settings"
+msgstr ""
+
+#: wpforo-birthday-widget.php:301
+msgid "Select Language"
+msgstr ""
+
+#: wpforo-birthday-widget.php:312
+msgid "English"
+msgstr ""
+
+#: wpforo-birthday-widget.php:313
+msgid "Italian"
+msgstr ""
+
+#: wpforo-birthday-widget.php:314
+msgid "German"
+msgstr ""
+
+#: wpforo-birthday-widget.php:315
+msgid "French"
+msgstr ""
+
+#: wpforo-birthday-widget.php:316
+msgid "Spanish"
+msgstr ""
+
+#: wpforo-birthday-widget.php:317
+msgid "Arabic"
+msgstr ""
+
+#: wpforo-birthday-widget.php:318
+msgid "Russian"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A widget to display user birthdays in wpForo."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid ""
+"<a href=\"https://mrlab.altervista.org/community\" target=\"_blank\">MRLab "
+"Community</a>"
+msgstr ""

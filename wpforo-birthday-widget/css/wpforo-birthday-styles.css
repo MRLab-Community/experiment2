@@ -1,0 +1,57 @@
+/* General styles for the birthday widget */
+.widget_wpforo_birthday_widget {
+    position: relative; /* Required for absolute positioning of balloons */
+    padding: 20px;
+    background-color: none!important;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wpforo-birthday-widget {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wpforo-birthday-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wpforo-avatar {
+    margin-right: 10px;
+}
+
+.wpforo-info {
+    font-size: 14px;
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically center align */
+}
+
+.wpforo-age {
+    color: #fff;
+    margin-left: 5px; /* Add spacing between name and age */
+}
+
+/* Styles for the balloons image */
+.wpforo-balloons {
+    position: absolute;
+    width: 70px; /* Match the image size */
+    height: 70px; /* Match the image size */
+    z-index: 10; /* Ensure it appears above other elements */
+	top: 4px;
+    right: 1px;
+}
+
+/* Positioning options */
+.wpforo-balloons.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.wpforo-balloons img {
+    width: 100%; /* Make sure the image scales properly */
+    height: auto;
+    display: block;
+}
